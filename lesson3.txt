@@ -1,1 +1,55 @@
-html code
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Block, Inline, Inline-Block</title>
+    <style>
+      .border-box {
+        display: block;         
+        height: 50px;
+        width: 200px;
+        background-color: #6792B5;
+        border-color: blue;
+        border-width: 3px;
+        border-style: solid;
+        padding: 20px 0px 0px 80px;
+        margin: 5px 0px 20px 0px;
+        }
+      .inline {
+        display: inline;
+        height: 50px;
+        width: 200px;
+        background-color: yellow;
+        border-color: red;
+        border-width: 3px;
+        border-style: solid;
+        padding: 20px 20px 20px 20px;
+        margin: 0px 20px 15px 0px;
+        }
+      .border-inline-box {
+        display: inline-block;         
+        height: 50px;
+        width: 200px;
+        background-color: lightgreen;
+        border-color: green;
+        border-width: 3px;
+        border-style: solid;
+        padding: 20px 0px 0px 80px;
+        margin: 40px 20px 50px 0px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="border-box">I am block</div>
+    <div class="border-box">I am block</div>
+    <div class="border-box">I am block</div>
+    <br>
+    
+    <div class="inline">I am inline</div>
+    <div class="inline">I am inline</div>
+    <div class="inline">I am inline</div>
+  <br>
+    <div class="border-inline-box">I am inline-block</div>
+    <div class="border-inline-box">I am inline-block</div>
+    <div class="border-inline-box">I am inline-block</div>
+  </body>
+</html>
